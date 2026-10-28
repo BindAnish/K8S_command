@@ -1,0 +1,11 @@
+apiveriabe:v1
+kind: pod
+metadata
+   name:mysql
+spec :
+      container:
+	image:mysql
+	Port:
+	 containerport:3306
+	name:Mysql_ROOT.PASSWORD
+	value:Pass@123

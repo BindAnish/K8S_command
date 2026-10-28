@@ -1,0 +1,10 @@
+apiversion:v1
+kind: pod
+metadata:
+ name: myapp
+spec :
+	container:
+	 image:nginx
+	 Ports:
+	  -containerport:80
+	 name : mycont
