@@ -1,0 +1,11 @@
+kunectl get pods ---------- show all pods list .
+kubctl apply-f menifest.yaml --- create pod command with yaml code 
+kubectl get pod 
+kubectl lod <pod name> ----------- show specipc pod deteils
+kunectl delete pod <pod name> ------------- delete pod 
+kunectl get pod    -------------- show lit of pod 
+kubectl run <pod name > --image =nginx  ----------- create new pod 
+kubectl get pods -o wide  ---------- wich ip use a pod 
+kubectl exec -it  <pod nmae > bin/bash  -------------- insid to pod 
+curl localhost ---------- show pod images
+
